@@ -1,7 +1,7 @@
 ﻿Imports System.IO
 Imports System.Net
 Imports System.Web
-Imports Pirate.Logins
+Imports Piratify.Logins
 
 Public Class FreeMusic
 

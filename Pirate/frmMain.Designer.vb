@@ -89,7 +89,7 @@ Partial Class frmMain
         'btnSettings
         '
         Me.btnSettings.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.btnSettings.Image = Global.Pirate.My.Resources.Resources.Settings
+        Me.btnSettings.Image = Global.Piratify.My.Resources.Resources.Settings
         Me.btnSettings.Location = New System.Drawing.Point(656, 2)
         Me.btnSettings.Name = "btnSettings"
         Me.btnSettings.Size = New System.Drawing.Size(26, 26)
