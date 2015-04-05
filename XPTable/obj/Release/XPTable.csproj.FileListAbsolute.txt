@@ -19,3 +19,10 @@ C:\Users\mik\Pirate-1004-src\XPTable\obj\Release\XPTable.Models.Table.resources
 C:\Users\mik\Pirate-1004-src\XPTable\obj\Release\XPTable.Models.TableModel.resources
 C:\Users\mik\Pirate-1004-src\XPTable\obj\Release\XPTable.csproj.GenerateResource.Cache
 C:\Users\mik\Pirate-1004-src\XPTable\obj\Release\XPTable.dll
+C:\Users\Luuk\Google Drive\Programming\Visual Studio 2013\Projects\Pirate\XPTable\bin\Release\XPTable.dll
+C:\Users\Luuk\Google Drive\Programming\Visual Studio 2013\Projects\Pirate\XPTable\obj\Release\XPTable.csprojResolveAssemblyReference.cache
+C:\Users\Luuk\Google Drive\Programming\Visual Studio 2013\Projects\Pirate\XPTable\obj\Release\XPTable.Editors.DropDownContainer.resources
+C:\Users\Luuk\Google Drive\Programming\Visual Studio 2013\Projects\Pirate\XPTable\obj\Release\XPTable.Models.Table.resources
+C:\Users\Luuk\Google Drive\Programming\Visual Studio 2013\Projects\Pirate\XPTable\obj\Release\XPTable.Models.TableModel.resources
+C:\Users\Luuk\Google Drive\Programming\Visual Studio 2013\Projects\Pirate\XPTable\obj\Release\XPTable.csproj.GenerateResource.Cache
+C:\Users\Luuk\Google Drive\Programming\Visual Studio 2013\Projects\Pirate\XPTable\obj\Release\XPTable.dll
