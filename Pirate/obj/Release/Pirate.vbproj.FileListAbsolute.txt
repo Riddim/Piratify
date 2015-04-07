@@ -27,3 +27,19 @@ C:\Users\Luuk\Google Drive\Programming\Visual Studio 2013\Projects\Pirate\Pirate
 C:\Users\Luuk\Google Drive\Programming\Visual Studio 2013\Projects\Pirate\Pirate\obj\Release\Pirate.exe.manifest
 C:\Users\Luuk\Google Drive\Programming\Visual Studio 2013\Projects\Pirate\Pirate\obj\Release\Pirate.application
 C:\Users\Luuk\Google Drive\Programming\Visual Studio 2013\Projects\Pirate\Pirate\obj\Release\Pirate.xml
+D:\Google Drive\Programming\Visual Studio 2013\Projects\new Pirate\Piratify\Pirate\bin\Release\Piratify.exe.config
+D:\Google Drive\Programming\Visual Studio 2013\Projects\new Pirate\Piratify\Pirate\obj\Release\Pirate.vbproj.ResolveComReference.cache
+D:\Google Drive\Programming\Visual Studio 2013\Projects\new Pirate\Piratify\Pirate\bin\Release\Piratify.exe.manifest
+D:\Google Drive\Programming\Visual Studio 2013\Projects\new Pirate\Piratify\Pirate\bin\Release\Piratify.application
+D:\Google Drive\Programming\Visual Studio 2013\Projects\new Pirate\Piratify\Pirate\bin\Release\Piratify.exe
+D:\Google Drive\Programming\Visual Studio 2013\Projects\new Pirate\Piratify\Pirate\bin\Release\Piratify.pdb
+D:\Google Drive\Programming\Visual Studio 2013\Projects\new Pirate\Piratify\Pirate\bin\Release\XPTable.dll
+D:\Google Drive\Programming\Visual Studio 2013\Projects\new Pirate\Piratify\Pirate\obj\Release\Pirate.vbprojResolveAssemblyReference.cache
+D:\Google Drive\Programming\Visual Studio 2013\Projects\new Pirate\Piratify\Pirate\obj\Release\Piratify.frmMain.resources
+D:\Google Drive\Programming\Visual Studio 2013\Projects\new Pirate\Piratify\Pirate\obj\Release\Piratify.frmSettings.resources
+D:\Google Drive\Programming\Visual Studio 2013\Projects\new Pirate\Piratify\Pirate\obj\Release\Piratify.Resources.resources
+D:\Google Drive\Programming\Visual Studio 2013\Projects\new Pirate\Piratify\Pirate\obj\Release\Pirate.vbproj.GenerateResource.Cache
+D:\Google Drive\Programming\Visual Studio 2013\Projects\new Pirate\Piratify\Pirate\obj\Release\Piratify.exe.manifest
+D:\Google Drive\Programming\Visual Studio 2013\Projects\new Pirate\Piratify\Pirate\obj\Release\Piratify.application
+D:\Google Drive\Programming\Visual Studio 2013\Projects\new Pirate\Piratify\Pirate\obj\Release\Piratify.exe
+D:\Google Drive\Programming\Visual Studio 2013\Projects\new Pirate\Piratify\Pirate\obj\Release\Piratify.pdb

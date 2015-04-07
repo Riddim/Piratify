@@ -25,7 +25,7 @@
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
     <OldToolsVersion>3.5</OldToolsVersion>
-    <PublishUrl>C:\Users\Luuk\Google Drive\Programming\Visual Studio 2013\Projects\Pirate\Publish\</PublishUrl>
+    <PublishUrl>D:\Google Drive\Programming\Visual Studio 2013\Projects\Pirate\Publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>false</UpdateEnabled>
