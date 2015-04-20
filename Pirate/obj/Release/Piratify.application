@@ -4,14 +4,14 @@
   <description asmv2:publisher="Piratify" asmv2:product="Piratify" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <deployment install="true" mapFileExtensions="true" />
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="Piratify.exe.manifest" size="5139">
+    <dependentAssembly dependencyType="install" codebase="Piratify.exe.manifest" size="6030">
       <assemblyIdentity name="Piratify.exe" version="1.0.0.3" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>mT0cYZ+1VJRTbSv0lQdTQGLKFxk=</dsig:DigestValue>
+        <dsig:DigestValue>ILI8Z5jKPdl1Q+uGUi7qmKGo7rE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
