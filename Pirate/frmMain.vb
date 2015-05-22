@@ -199,9 +199,9 @@ Public Class frmMain
 
             Dim row As Object = 0
             Dim amount As Integer = tmSearch.Rows.Count
-            Dim index As Integer = 1
+            Dim index As Integer = 0
             Dim indexsize = faultyletters.Count
-            Do Until index = indexsize
+            Do Until index = indexsize - 1
                 If amount > row Then
                     Dim filename As String = tmSearch.Rows(row).Cells(2).Text & " - " & tmSearch.Rows(row).Cells(3).Text & ".mp3"
                     Dim size As String = tmSearch.Rows(row).Cells(4).Text
@@ -215,11 +215,12 @@ Public Class frmMain
                 Else
                     Exit Do
                 End If
+
             Loop
             If amount > row Then
                 StartDownload(row)
             Else
-                failedSongs.Add(tmSearch.Rows(row).Cells(2).Text & " - " & tmSearch.Rows(row).Cells(3).Text & ".mp3")
+                failedSongs.Add(txtSearch.Text)
                 Amountfail.Text = failedSongs.Count
             End If
             nextDownload()
