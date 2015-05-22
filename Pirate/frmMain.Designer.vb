@@ -50,9 +50,10 @@ Partial Class frmMain
         Me.ProgressBarColumn1 = New XPTable.Models.ProgressBarColumn()
         Me.TextColumn8 = New XPTable.Models.TextColumn()
         Me.tmDownload = New XPTable.Models.TableModel()
-        Me.Amount = New System.Windows.Forms.Label()
+        Me.Amountfail = New System.Windows.Forms.Label()
         Me.pbProgress = New System.Windows.Forms.ProgressBar()
         Me.Down_Excel = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.SplitContainer1.Panel1.SuspendLayout()
         Me.SplitContainer1.Panel2.SuspendLayout()
         Me.SplitContainer1.SuspendLayout()
@@ -67,7 +68,7 @@ Partial Class frmMain
         Me.txtSearch.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtSearch.Location = New System.Drawing.Point(2, 2)
         Me.txtSearch.Name = "txtSearch"
-        Me.txtSearch.Size = New System.Drawing.Size(441, 26)
+        Me.txtSearch.Size = New System.Drawing.Size(404, 26)
         Me.txtSearch.TabIndex = 0
         '
         'btnSearch
@@ -252,15 +253,15 @@ Partial Class frmMain
         '
         Me.tmDownload.RowHeight = 24
         '
-        'Amount
+        'Amountfail
         '
-        Me.Amount.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Amount.AutoSize = True
-        Me.Amount.Location = New System.Drawing.Point(536, 9)
-        Me.Amount.Name = "Amount"
-        Me.Amount.Size = New System.Drawing.Size(13, 13)
-        Me.Amount.TabIndex = 9
-        Me.Amount.Text = "0"
+        Me.Amountfail.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Amountfail.AutoSize = True
+        Me.Amountfail.Location = New System.Drawing.Point(536, 9)
+        Me.Amountfail.Name = "Amountfail"
+        Me.Amountfail.Size = New System.Drawing.Size(13, 13)
+        Me.Amountfail.TabIndex = 9
+        Me.Amountfail.Text = "0"
         '
         'pbProgress
         '
@@ -281,12 +282,23 @@ Partial Class frmMain
         Me.Down_Excel.Text = "Down excel"
         Me.Down_Excel.UseVisualStyleBackColor = True
         '
+        'Button1
+        '
+        Me.Button1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Button1.Location = New System.Drawing.Point(412, 2)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(31, 26)
+        Me.Button1.TabIndex = 10
+        Me.Button1.Text = "P"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
         'frmMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(684, 412)
-        Me.Controls.Add(Me.Amount)
+        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.Amountfail)
         Me.Controls.Add(Me.Down_Excel)
         Me.Controls.Add(Me.pbProgress)
         Me.Controls.Add(Me.btnSettings)
@@ -331,6 +343,7 @@ Partial Class frmMain
     Friend WithEvents NumberColumn4 As XPTable.Models.NumberColumn
     Friend WithEvents NumberColumn5 As XPTable.Models.NumberColumn
     Friend WithEvents Down_Excel As System.Windows.Forms.Button
-    Friend WithEvents Amount As System.Windows.Forms.Label
+    Friend WithEvents Amountfail As System.Windows.Forms.Label
+    Friend WithEvents Button1 As System.Windows.Forms.Button
 
 End Class

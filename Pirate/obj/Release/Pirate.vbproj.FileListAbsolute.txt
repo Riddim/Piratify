@@ -43,3 +43,9 @@ D:\Google Drive\Programming\Visual Studio 2013\Projects\new Pirate\Piratify\Pira
 D:\Google Drive\Programming\Visual Studio 2013\Projects\new Pirate\Piratify\Pirate\obj\Release\Piratify.application
 D:\Google Drive\Programming\Visual Studio 2013\Projects\new Pirate\Piratify\Pirate\obj\Release\Piratify.exe
 D:\Google Drive\Programming\Visual Studio 2013\Projects\new Pirate\Piratify\Pirate\obj\Release\Piratify.pdb
+D:\Google Drive\Programming\Visual Studio 2013\Projects\new Pirate\Piratify\Pirate\obj\Release\Piratify.AutoDown.resources
+D:\Google Drive\Programming\Visual Studio 2013\Projects\new Pirate\Piratify\Pirate\bin\Release\Microsoft.Office.Interop.Excel.dll
+D:\Google Drive\Programming\Visual Studio 2013\Projects\new Pirate\Piratify\Pirate\bin\Release\office.dll
+D:\Google Drive\Programming\Visual Studio 2013\Projects\new Pirate\Piratify\Pirate\bin\Release\Microsoft.Vbe.Interop.dll
+D:\Google Drive\Programming\Visual Studio 2013\Projects\new Pirate\Piratify\Pirate\bin\Release\Microsoft.Office.Interop.Excel.xml
+D:\Google Drive\Programming\Visual Studio 2013\Projects\new Pirate\Piratify\Pirate\bin\Release\office.xml

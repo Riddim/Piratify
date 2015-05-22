@@ -291,6 +291,13 @@ Public Class FreeMusic
         Public Url As String = "-"
     End Class
 
+
+    Public Class AutoDownSong
+        Public RowId As Integer = 0
+        Public FileName As String = "-"
+        Public Downloaded As Boolean = False
+    End Class
+
 #End Region
 
 #Region "Login engine"

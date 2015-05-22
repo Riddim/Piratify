@@ -3,7 +3,7 @@ Imports System.IO
 Imports System.Net
 Imports System.Threading
 Imports System.Web
-Imports Piratify.FreeMusic
+Imports Pirate.FreeMusic
 Imports System.Text.RegularExpressions
 Imports System.Text
 Imports Excel = Microsoft.Office.Interop.Excel
@@ -98,7 +98,7 @@ Public Class frmMain
 
     Public Sub SearchCompleted2()
         counter3 += 1
-        Amount.Text = counter3
+        Amountfail.Text = counter3
         failedSongs.Add(txtSearch.Text)
 
         nextDownload()
@@ -157,7 +157,7 @@ Public Class frmMain
 
 
         If downloadList Then
-            Dim row As Object = 0
+
 
             Dim faultyletters As New List(Of String)
             faultyletters.Add("к")
@@ -171,27 +171,33 @@ Public Class frmMain
             faultyletters.Add("ђ")
             faultyletters.Add("preview")
             faultyletters.Add("vk.com")
-            faultyletters.Add("ringtones")
+            faultyletters.Add("ringtone")
             faultyletters.Add("realtones")
             faultyletters.Add("instrumental")
-            faultyletters.Add("live")
+            faultyletters.Add("live ")
             faultyletters.Add("acapella")
-            faultyletters.Add("mash")
+            faultyletters.Add("mash ")
             faultyletters.Add("cover")
             faultyletters.Add("acoustic")
-            If Not txtSearch.Text.ToLower().IndexOf("remix") <> -1 Then
-                faultyletters.Add("remix")
+            faultyletters.Add("boosted ")
+            faultyletters.Add("rip ")
+            faultyletters.Add("processed")
+            faultyletters.Add("continuous")
+
+            If Not txtSearch.Text.ToLower().IndexOf("remix ") <> -1 Then
+                faultyletters.Add("remix ")
             End If
-            If Not txtSearch.Text.ToLower().IndexOf("edit") <> -1 Then
-                faultyletters.Add("edit")
+            If Not txtSearch.Text.ToLower().IndexOf("edit ") <> -1 Then
+                faultyletters.Add("edit ")
             End If
-            If Not txtSearch.Text.ToLower().IndexOf("mix") <> -1 Then
-                faultyletters.Add("mix")
+            If Not txtSearch.Text.ToLower().IndexOf("mix ") <> -1 Then
+                faultyletters.Add("mix ")
             End If
             If Not txtSearch.Text.ToLower().IndexOf("bootleg") <> -1 Then
                 faultyletters.Add("bootleg")
             End If
 
+            Dim row As Object = 0
             Dim amount As Integer = tmSearch.Rows.Count
             Dim index As Integer = 1
             Dim indexsize = faultyletters.Count
@@ -201,7 +207,7 @@ Public Class frmMain
                     Dim size As String = tmSearch.Rows(row).Cells(4).Text
                     Dim size2 As String = Replace(size, ":", "")
                     Dim sizeint As Integer = Convert.ToDecimal(size2)
-                    If (filename.ToLower.IndexOf(faultyletters.ElementAt(index)) <> -1 OrElse size2 < 100) Then
+                    If (filename.ToLower.Contains(faultyletters.ElementAt(index).ToLower) OrElse sizeint < 120) Then
                         row += 1
                         index = 0
                     End If
@@ -212,6 +218,9 @@ Public Class frmMain
             Loop
             If amount > row Then
                 StartDownload(row)
+            Else
+                failedSongs.Add(tmSearch.Rows(row).Cells(2).Text & " - " & tmSearch.Rows(row).Cells(3).Text & ".mp3")
+                Amountfail.Text = failedSongs.Count
             End If
             nextDownload()
         Else
@@ -448,7 +457,7 @@ Public Class frmMain
                 End If
 
                 Try
-                bufString = sheet.Item(1).Cells(index, 1).Value().ToString
+                    bufString = sheet.Item(1).Cells(index, 1).Value().ToString
                 Catch
                     Exit While
                 End Try
