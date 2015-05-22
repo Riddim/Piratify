@@ -43,11 +43,6 @@
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
-      <assemblyIdentity name="Microsoft.Vbe.Interop" version="15.0.0.0" publicKeyToken="71E9BCE111E9429C" language="neutral" processorArchitecture="msil" />
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
       <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
     </dependentAssembly>
   </dependency>
@@ -76,19 +71,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>KQAudaCG8iqBpjYwOxEq1zA5QBs=</dsig:DigestValue>
+        <dsig:DigestValue>3pz+rMukPjgL4i6kCI8R8MMBsuQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="XPTable.dll" size="327680">
-      <assemblyIdentity name="XPTable" version="1.2.0.42670" publicKeyToken="24950705800D2198" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="XPTable" version="1.2.0.42765" publicKeyToken="24950705800D2198" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>Ufdp4moLVqaIj6HToYsVf6Fg2AM=</dsig:DigestValue>
+        <dsig:DigestValue>MbYqRKwvxkJiLym72MMs1J0nsTc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
