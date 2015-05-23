@@ -71,19 +71,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>OGorGbUFcLO5U2AICuxMPWV0O1s=</dsig:DigestValue>
+        <dsig:DigestValue>FK5gLKW4Fti1I2zIMA4AnAhRV0Q=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="XPTable.dll" size="327680">
-      <assemblyIdentity name="XPTable" version="1.2.0.566" publicKeyToken="24950705800D2198" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="XPTable" version="1.2.0.19254" publicKeyToken="24950705800D2198" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>wmHLi5evRtrBGwU8zHsT1DRAWWI=</dsig:DigestValue>
+        <dsig:DigestValue>TfaISlY5kjMmZOB4mYe1bVtSr4Q=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

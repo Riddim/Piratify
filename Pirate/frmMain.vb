@@ -174,9 +174,11 @@ Public Class frmMain
             faultyletters.Add("ringtone")
             faultyletters.Add("realtones")
             faultyletters.Add("instrumental")
-            faultyletters.Add("live ")
+            faultyletters.Add("(live)")
+            faultyletters.Add(" live")
             faultyletters.Add("acapella")
-            faultyletters.Add("mash ")
+            faultyletters.Add("mash-up")
+            faultyletters.Add("mashup")
             faultyletters.Add("cover")
             faultyletters.Add("acoustic")
             faultyletters.Add("boosted ")
@@ -184,16 +186,16 @@ Public Class frmMain
             faultyletters.Add("processed")
             faultyletters.Add("continuous")
 
-            If Not txtSearch.Text.ToLower().IndexOf("remix ") <> -1 Then
-                faultyletters.Add("remix ")
+            If Not txtSearch.Text.ToLower().Contains("remix") Then
+                faultyletters.Add("remix")
             End If
-            If Not txtSearch.Text.ToLower().IndexOf("edit ") <> -1 Then
-                faultyletters.Add("edit ")
+            If Not txtSearch.Text.ToLower().Contains("edit") Then
+                faultyletters.Add("edit")
             End If
-            If Not txtSearch.Text.ToLower().IndexOf("mix ") <> -1 Then
-                faultyletters.Add("mix ")
+            If Not txtSearch.Text.ToLower().Contains(" mix") Then
+                faultyletters.Add(" mix")
             End If
-            If Not txtSearch.Text.ToLower().IndexOf("bootleg") <> -1 Then
+            If Not txtSearch.Text.ToLower().Contains("bootleg") Then
                 faultyletters.Add("bootleg")
             End If
 
@@ -201,7 +203,7 @@ Public Class frmMain
             Dim amount As Integer = tmSearch.Rows.Count
             Dim index As Integer = 0
             Dim indexsize = faultyletters.Count
-            Do Until index = indexsize - 1
+            Do Until index = indexsize
                 If amount > row Then
                     Dim filename As String = tmSearch.Rows(row).Cells(2).Text & " - " & tmSearch.Rows(row).Cells(3).Text & ".mp3"
                     Dim size As String = tmSearch.Rows(row).Cells(4).Text
@@ -465,6 +467,10 @@ Public Class frmMain
                 stringArray(index - 1) = bufString
                 index = index + 1
             End While
+
+
+            oApp.Quit()
+
             System.Threading.Thread.CurrentThread.CurrentCulture = oldCI
 
         End Using
